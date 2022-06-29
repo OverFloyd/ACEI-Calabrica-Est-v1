@@ -1,0 +1,8 @@
+#DISATT. PROTEZIONE PARI LATO CALABRICA
+setblock 316 64 -469 air
+
+#TORCIA PER ITINERARIO DI TRANSITO (funzione accoppiata)
+setblock 322 62 -525 air
+
+#DEVIATOIO 2
+setblock 324 62 -516 air

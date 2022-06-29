@@ -1,0 +1,38 @@
+FUNZIONI     SEMI-ITINERARI POSSIBILI
+it1-fv1 ---> it1-fv1
+itfv1-3 ---> itfv1-3
+             itfv2-3
+             it3-fv2
+
+it2-fv2 ---> it2-fv2
+itfv2-2 ---> itfv2-2
+
+it3-fv1 ---> it3-fv1
+             itfv2-(4)
+itfv1-1 ---> itfv1-1
+             itfv2-1
+             it2-fv2
+
+
+ITINERARI POSSIBILI
+it1-fv1 + itfv1-3 = //it bin 1 (A)
+it3-fv1 + itfv1-1 = //it bin 1 (B)
+
+it1-fv2 + itfv2-3 = //it bin 2 (A)
+(       + itfv2-(4))
+it2-fv2 + itfv2-3 = //it bin 2 (B)
+(       + itfv2-(4))
+it3-fv2 + itfv2-1 = //it bin 2 (A)
+        + itfv2-2
+
+Itinerari: divisi in arrivi/partenze
+Motivazione: per permettere la fermata del treno è necessario l'uso di rotaie non elettrificate in quanto i treni non dispongono di impianto frenante. Una volta attivato l'itinerario parziale di arrivo si posiziona una redstone torch nei pressi della suddetta rotaia che, una volta attivato l'itinerario di partenza e posizionata la redstone torch gemella, tramite un circuito sottostante la rotaia elettrificata questa viene attivata e il convoglio subisce la spinta necessaria a ripartire (o mantiene la velocità di transito in caso non effettua fermata).
+Condizioni varie per itinerari:
+
+ORGANIZZAZIONE FUNZIONI
+Dal livello in-game al livello più esterno di funzione
+1. (command block)
+2. funzioni per arrivi/partenze
+2.2. funzioni per l'itinerario
+2.1. funzioni per condizioni di attivazione itinerario
+3. funzioni per la singola infrastruttura di piazzale (attivazione/disattivazione)

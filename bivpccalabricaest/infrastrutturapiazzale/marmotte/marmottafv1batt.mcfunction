@@ -1,0 +1,1 @@
+setblock 322 62 -518 redstone_torch

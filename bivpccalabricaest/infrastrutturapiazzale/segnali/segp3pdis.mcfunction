@@ -1,0 +1,1 @@
+setblock 316 64 -469 air
