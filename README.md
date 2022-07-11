@@ -3,7 +3,7 @@ Funzioni costituenti la logica dell'ACEI (soppresso) del posto di servizio Bivio
 
 Per le abbreviazioni consultare la relativa [sezione](#abbreviazioni).
 
-![piano schematico](https://github.com/OverFloyd/Calabrica-Est-ACEI-v1/blob/master/bivpccalabricaest/PS%20Biv-PC%20Calabrica%20Est%20(20-08-2017).png).
+![piano schematico](https://github.com/OverFloyd/Calabrica-Est-ACEI-v1/blob/master/bivpccalabricaest/PS%20Biv-PC%20Calabrica%20Est%20(20-08-2017).png)
 
 Premessa: la logica di funzionamento è da considerarsi obsoleta, non più utilizzabile e ormai fuori standard rispetto a quelli per apparati simili. Questo vale per diversi aspetti, ad esempio: tutti i PdS che non siano stazioni (o Posti di Movimento) non dispongono di itinerari di partenza in quanto sono dotati del solo segnalamento di protezione (al contrario del presente impianto, dove non si ha un gruppo scambi unico ma due costituiti da una comunicazione ciascuno), completa mancanza di collegamenti di sicurezza, non esiste automatica ridisposizione a via impedita dei segnali, bloccamento degli enti, consensi in UM, sistema di occupazione degli itinerari ecc.
 
